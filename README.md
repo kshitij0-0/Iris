@@ -13,3 +13,8 @@ Like if a person appears angry or frustrated, IRIS will reply with a response th
 IRIS uses a deep learning model to identify the emotion of a person.
 It takes the dominant emotion on the persons face over a  certain amount of time and replies with an appropriate response for what it thinks the person is feeling.
 For example, when a persons face is scanned if the majority of the emotion detected is sad, then IRIS will take that emotion as input and reply with a response to help the individual tackle that particular sentiment.
+
+
+<img width="1343" alt="Screenshot 2022-06-25 at 7 21 15 PM" src="https://user-images.githubusercontent.com/65002995/175776619-21eaa2f1-1b56-47f2-be30-2b1616119770.png">
+
+<img width="1343" alt="Screenshot 2022-06-25 at 7 21 33 PM" src="https://user-images.githubusercontent.com/65002995/175776623-3377ad86-2388-4fa8-aba4-4563759aa826.png">
