@@ -41,7 +41,7 @@ from text_to_speech import speak
  
 listener = sr.Recognizer()
 engine = pyttsx3.init()
-voices = engine.getProperty('voices')
+
 engine.setProperty('voice', voices[0].id)
 
 
@@ -353,8 +353,7 @@ def face():
                 prediction = classifier.predict(roi)[0]
                 label=emotion_labels[prediction.argmax()]
                 label_position = (x,y)
-                cv2.putText(frame,label,label_position,cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2)
-                labels.append(label)
+                cv2.putText(frame,label,label_position,cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2
                 print(labels)
                 
             else:
